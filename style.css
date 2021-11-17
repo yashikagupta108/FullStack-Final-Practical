@@ -1,0 +1,123 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    background-color: black;
+    width:100%;
+    height: 70px;
+    font-size: 30px;
+    line-height: 60px;
+}
+.logo
+{
+    color: red;
+    display: inline-block;
+}
+.logo h4
+{
+    display:inline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav
+{
+    display: inline-block;
+    position:relative;
+    top:-10px;
+    right: -420px;
+}
+.nav li
+{
+    display:inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+.nav li a
+{
+    text-decoration: none;
+    color:rgb(172, 167, 167);
+}
+.button a
+{
+    float: right;
+    position :relative;
+    top:-80px;
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    margin: 10px;
+    height: 50px;
+    width: 120px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+.banner
+{
+    background-color:aliceblue;
+    height: 100vh;
+}
+.banner h1
+{
+    text-align: center;
+    padding: 20px;
+}
+.banner h3
+{
+    text-align: center;
+    color: gray;
+}
+.box
+{
+    display: inline-block;
+    width:400px;
+    height: 400px;
+    background-color: rgb(45, 84, 121);
+    margin: 20px;
+    position: relative;
+    right: -80px;
+}
+.display
+{
+    width:350px;
+    height:400px;
+    background-color:white;
+    overflow:hidden;
+    border:2px solid white;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin:80px;
+    padding-top: 0px;
+    
+}
+.display img
+{
+    width:100%;
+    height: 300px;
+    border-radius: 20px;
+
+}
+.display h3
+{
+    text-align: center;
+    padding: 10px;
+    color:blue;
+}
+.container
+{
+    display:inline-flex;
+}
+.display i
+{
+    color:goldenrod;
+    font-size: 30px;
+
+}
+.display h4
+{
+    color:grey;
+}
